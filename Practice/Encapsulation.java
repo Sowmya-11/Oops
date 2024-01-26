@@ -14,7 +14,7 @@ class Account {
         this.password=pass;
     }
  }
-public class AccessModifiers {
+public class Encapsulation {
     public static void main(String[] args) {
         Account account1=new Account();
         account1.name="Hamara";
