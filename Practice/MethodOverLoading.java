@@ -1,5 +1,6 @@
 package Oops.Practice;
 
+// Polymorphism
 class Sum {
 
     public int printSum(int a, int b) {
