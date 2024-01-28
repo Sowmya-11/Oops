@@ -9,6 +9,7 @@ class Shape {
     }
 }
 class Rectangle extends Shape {
+    @Override
     void getArea() {
         System.out.println("Area of Rectangle");
     }
