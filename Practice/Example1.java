@@ -1,4 +1,4 @@
-package Oops.Practice;
+package Practice;
 
 class Student {
     String name;

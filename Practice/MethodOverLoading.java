@@ -1,4 +1,4 @@
-package Oops.Practice;
+package Practice;
 
 // Polymorphism
 class Sum {

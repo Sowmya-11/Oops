@@ -1,4 +1,4 @@
-package Oops.Practice;
+package Practice;
 
 interface Animal {
     int eyes=2;

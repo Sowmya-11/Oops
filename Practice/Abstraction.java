@@ -1,4 +1,4 @@
-package Oops.Practice;
+package Practice;
 
 abstract class Animal {
     // abstract class can have abstract and non-abstract methods 
