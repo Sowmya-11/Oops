@@ -9,7 +9,7 @@ class Vehicle {
     }
 }
 class Car extends Vehicle {
-    @Override
+    // @Override 
     void drive() {
         System.out.println("Repairing a car");
     }
