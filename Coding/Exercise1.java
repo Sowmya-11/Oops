@@ -4,10 +4,10 @@ package Coding;
 // Create two instances of the "Person" class, set their attributes using the constructor, 
 // and print their name and age
 
-class Person {
+class Persons {
     private String name;
     private int age;
-    public Person(String name, int age) {
+    public Persons(String name, int age) {
         this.name=name;
         this.age=age;
     }
@@ -21,8 +21,8 @@ class Person {
 
 public class Exercise1 {
     public static void main(String[] args) {
-        Person person1=new Person("John", 30);
-        Person person2=new Person("Tina", 27);
+        Persons person1=new Persons("John", 30);
+        Persons person2=new Persons("Tina", 27);
         System.out.println(person1.getName()+" is "+person1.getAge()+" years old.");
         System.out.println(person2.getName()+" is "+person2.getAge()+" years old.");
     }
