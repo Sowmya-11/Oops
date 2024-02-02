@@ -2,10 +2,10 @@ package Coding;
 
 // Write a Java program to create a class called "Rectangle" with 
 // width and height attributes. Calculate the area and perimeter of the rectangle.
-class Rectangle {
+class Rectangles {
     private double width;
     private double height;
-    public Rectangle(double width, double height) {
+    public Rectangles(double width, double height) {
         this.width=width;
         this.height=height;
     }
@@ -31,7 +31,7 @@ class Rectangle {
 }
 public class Exercise3 {
     public static void main(String[] args) {
-        Rectangle rectangle=new Rectangle(6, 3);
+        Rectangles rectangle=new Rectangles(6, 3);
         System.out.println("Area of rectangle: "+rectangle.getArea());
         System.out.println("Perimeter of a rectangle: "+rectangle.getPerimeter());
         rectangle.setWidth(7);
